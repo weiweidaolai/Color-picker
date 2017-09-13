@@ -1,0 +1,91 @@
+body{
+  text-align: center;
+  padding-top: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#frame{
+  margin: 0 auto;
+  width: 460px;
+
+}
+#color_total{
+float: left;
+}
+#colorshow{
+  width: 300px;
+  height: 300px;
+  float: left;
+  border: 1px solid rgb(189,217,208);
+  cursor: crosshair;
+}
+#colorselbox{
+  width: 8px;
+  height: 310px;
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+  position: relative;
+  top:-5px;
+}
+#colorselect{
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left:8px solid grey;
+  cursor: n-resize;
+  position: absolute;
+}
+span{
+  font-size: 20px;
+  float: left;
+  margin-top: 5px;
+}
+
+hr{
+  width: 110px;
+  margin-top: 10px;
+  float: right;
+}
+#show{
+  width: 110px;
+  height: 28px;
+  float: right;
+}
+.colorRH{
+  margin-top: 5px;
+  width: 110px;
+  height: 40px;
+  float: right;
+}
+.colorRH input{
+  width: 60px;
+  height: 30px;
+}
+.colorRH .up{
+  float: right;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid grey;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.colorRH .down{
+  float: right;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid grey;
+  clear:right;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+#circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border:1px solid black;
+  position: fixed;
+}
